@@ -15,8 +15,11 @@
 *.elf
 
 # Linker output files
-.map
-.exp
+*.map
+*.exp
 
-# Test binary
+# Binaries for flashing
+*.hex
+
+# Test binaries
 *.test
