@@ -18,7 +18,7 @@ int main (void)
 {
     // set data direction
     // port B bit 5 is the Adruino onboard LED
-    DDRB |= 1 << PB5;
+    DDRB |= 1 << DDB5;
 
     // endless blink loop
     // two short flashes each 2nd second
