@@ -21,7 +21,7 @@ Unter Linux kann ein Benutzer in der Gruppe dialout die seriellen Schnittstellen
 
 ```bash
 su
-moduser --append --groups dialout ulrich
+usermod --append --groups dialout ulrich
 ```
 
 
