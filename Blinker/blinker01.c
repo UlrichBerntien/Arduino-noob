@@ -14,7 +14,7 @@
 #include <util/delay.h>
 
 
-int main (void)
+int main(void)
 {
     // set data direction
     // port B bit 5 is the Adruino onboard LED
@@ -22,20 +22,20 @@ int main (void)
 
     // endless blink loop
     // two short flashes each 2nd second
-    while(1)
+    while (1)
     {
         // LED 100 ms on, only a flash
         PORTB |= 1 << PB5;
-        _delay_ms( 100 );
+        _delay_ms(100);
         // LED 400 ms off
-        PORTB &= ~ (1 << PB5);
-        _delay_ms( 400 );
+        PORTB &= ~(1 << PB5);
+        _delay_ms(400);
         // LED 100 ms on, a second a flash
         PORTB |= 1 << PB5;
-        _delay_ms( 100 );
+        _delay_ms(100);
         // LED 1400 ms off
-        PORTB &= ~ (1 << PB5);
-        _delay_ms( 1400 );
+        PORTB &= ~(1 << PB5);
+        _delay_ms(1400);
     }
 
     // program never returns
