@@ -19,3 +19,4 @@ Ziele sind das Verstehen von
 - [UNO-Initial](UNO-Initial) : ISP Programmierung, Bootloader
 - [Blinker](Blinker) : Blinker Programm in C
 - [Serialtext](Serialtext) : Text über serielle Schnittstelle
+- [Flashforth](Flashforth) : Flashforth installieren
